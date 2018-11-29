@@ -1,0 +1,47 @@
+{
+	"name": "movies-cli",
+	"version": "1.0.0",
+	"description": "Get information about your favourite movies 🎥",
+	"license": "MIT",
+	"repository": "xxczaki/movie",
+	"author": {
+		"name": "Antoni Kepinski",
+		"email": "a@kepinski.me",
+		"url": "https://kepinski.me"
+	},
+	"bin": {
+		"movies": "cli.js"
+	},
+	"scripts": {
+		"test": "xo"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"movies-cli",
+		"movie",
+		"movies",
+		"cli",
+		"film",
+		"cinema",
+		"tmdb",
+		"api",
+		"db",
+		"graphql",
+		"server",
+		"client",
+		"🎥"
+	],
+	"dependencies": {
+		"chalk": "^2.4.1",
+		"graphql-got": "^0.1.2",
+		"is-reachable": "^2.4.0",
+		"meow": "^5.0.0",
+		"prompts": "^1.2.1"
+	},
+	"devDependencies": {
+		"xo": "*"
+	}
+}
