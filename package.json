@@ -38,7 +38,7 @@
 		"chalk": "^2.4.1",
 		"graphql-got": "^0.1.2",
 		"is-reachable": "^2.4.0",
-		"meow": "^5.0.0",
+		"meow": "^8.0.0",
 		"prompts": "^1.2.1"
 	},
 	"devDependencies": {
